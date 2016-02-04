@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+<body>
+
+<div class="profile">
+  <clipPath class="clipPolygon">
+    <polygon points="-1 419,962 256,960 -2,0 0">
+    </polygon>
+  </clipPath></div>
+<div class="profile2"></div>
+<div class="profile3"></div>
+
+
+
+<style>
+.profile{
+background-image: url(http://www.geek.com/wp-content/uploads/2010/07/Scott-Forstall-Executive-profile-image.jpg);
+background-size: 100%;
+background-attachment: fixed;
+height: 700px;
+width: 100%;
+-webkit-clip-path: polygon(0px 700px,100% 450px,100% -2px,0px 0px);
+clip-path: url(".clipPolygon");
+}
+
+.profile2{
+background-color: blue;
+background-attachment: fixed;
+height: 700px;
+width: 100%;
+webkit-transform: skew(20deg);
+-moz-transform: skew(30deg, 10deg, 10deg, 10deg); 
+-o-transform: skew(20deg);
+}
+
+.profile3{
+background-color: black;
+background-attachment: fixed;
+height: 700px;
+width: 100%;;
+}
+
+
+
+
+</style>
+
+</body>
+</html>

@@ -79,11 +79,11 @@ p{
     background: grey;
     height: 100vh;
     text-align: center;
-    /*padding: 1%;*/
+    /*padding: 3%;*/
   }
 
 #box2 p{
-    padding: 1%;
+    padding: 3%;
     font-size: 15px;
     font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
   }
